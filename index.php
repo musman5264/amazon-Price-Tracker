@@ -7,7 +7,7 @@ $url_amazon = '';
 
 <head>
   <meta charset="utf-8">
-  <title>Portfolio</title>
+  <title>Amazon Price Tracker By HMZ Developer</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -49,7 +49,7 @@ $url_amazon = '';
 <header class="navigation border-bottom">
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="amznpricetracker.com">
       <i class="fas fa-dollar-sign"></i>Amazon Price History
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -58,9 +58,7 @@ $url_amazon = '';
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
+          
           
         </ul>
       </div>
@@ -75,14 +73,8 @@ $url_amazon = '';
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-8 mx-auto">
-        <div class="hero-img mx-auto mb-1 position-relative">
-          <img style="width: 170px; height: 170px;" src="images/banner-img.png" alt="img">
-          <span class="shape shape-1"></span>
-          <span class="shape shape-2"></span>
-          <span class="shape shape-3"></span>
-          <span class="shape shape-4"></span>
-        </div>
-        <p class="mb-1 fw-medium fs-4 text-primary">Welcome to AMAZON Price History Checker</p>
+       
+        <p class="mb-3 fw-medium fs-4 text-primary">Welcome to AMAZON Price History Checker</p>
         
         <form action="index.php">
           <div>
@@ -210,15 +202,8 @@ if(isset($_GET['ama_url_input'])){
     <div class="container">
       <div class="row">
         <div class="col-lg-6 mx-auto text-center">
-          <h2 class="text-primary h4 fw-bold mb-md-5 mb-3">[Company Name]</h2>
-          <p class="mb-2">[Address]</p>
-          <a href="#" class="mb-3 h6 text-tertiary d-block">[EMAIL]</a>
-          <a class="mb-lg-4 mb-3 d-inline-block text-dark" href="#">[PHONE]</a>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="#">Whtatsapp</a></li>
-            <li class="list-inline-item"><a href="#">Facebook</a></li>
-            <li class="list-inline-item"><a href="#">Instagram</a></li>
-          </ul>
+          <h2 class="text-primary h4 fw-bold mb-md-5 mb-3">Amzn Price Tracker</h2>
+          
         </div>
       </div>
     </div>
@@ -227,7 +212,7 @@ if(isset($_GET['ama_url_input'])){
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <p class="mb-0">Designed And Developed by <a rel="nofollow" href="https://www.esystematics.com " target="blank">Esystematic Technologies | +92 334 5266444
+          <p class="mb-0">Designed And Developed by <a rel="nofollow" href="https://Amznpricetracker.com " target="blank"> Price Tracking Systems
           </a>
           </p>
         </div>
@@ -263,6 +248,7 @@ if(isset($_GET['ama_url_input'])){
   $('#pimg').addClass('img-fluid float-right');
   $('.c-15').toggleClass('row');
   $('.product_pane').toggleClass('table table-responsive table-hover table-dark');
+  $('.offers.amazon').css('display', 'none');
 </script>
 </body>
 
